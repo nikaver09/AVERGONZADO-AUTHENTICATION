@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "662108872246",
+    "project_id": "faceiter-c82d0",
+    "storage_bucket": "faceiter-c82d0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662108872246:android:ad8cd8d02dff6197624297",
+        "android_client_info": {
+          "package_name": "com.app.faceiter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK9rN6vKzfye1MxKKkg9dZSca37KtX5Cc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
