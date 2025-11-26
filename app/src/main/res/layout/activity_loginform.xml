@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Loginform"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/faceitdown"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="FACEITER"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText" />
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints="Email address"
+        android:hint="Emil address"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        tools:ignore="HardcodedText,SpeakableTextPresentCheck" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:hint="password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        tools:ignore="HardcodedText" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#2B2B2B"
+        android:text="LOGIN"
+        android:textAllCaps="true"
+        android:textColor="#F76C4A"
+        tools:ignore="HardcodedText" />
+
+    <!-- Sign Up Button -->
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#424242"
+        android:text="SIGN UP"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        tools:ignore="ExtraText,HardcodedText" />
+
+</LinearLayout>
